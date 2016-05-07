@@ -1,0 +1,45 @@
+body{
+background-color:#000000;
+color:#ffffff;
+}
+form label {
+  display: inline-block;
+  width: 225px;
+  font-weight: bold;
+  color:#ffffff;
+  text-align:center;
+  font-size:20px;
+
+}
+
+.head{
+  font-size:30px;
+  color:#29abfb;
+  font-family:'Verdana';
+  text-align:center;
+}
+
+p{
+  font-size:30px;
+  color:#3fc35f;
+  font-family:'sans-serif';
+  font-weight:bold;
+  padding-left:0px;
+}
+
+.sub{
+  padding-left:250px;
+}
+.sub input{
+  background-color:#ff871c;
+  color:#d6dfd6;
+  height:30px;
+  font-size:15px;
+}
+
+#dob{
+  width:168px;
+}
+
+
+
