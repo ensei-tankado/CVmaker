@@ -19,7 +19,7 @@
 
           $pdf->Cell(0,10,"RESUME",0,1,"C");
 
-          for($i=0;$i<7;$i++)
+          for($i=0;$i<count($array);$i++)
                    {
                        $pdf->Cell(0,10,"",0,1);
                        $pdf->Cell(40,10,"{$titles[$i]}",0,0);
