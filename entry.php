@@ -14,15 +14,12 @@
             <p>Enter your details</p>
             <form method="post" action="resume.php">
                   <?php
-
-                       $arr=array("firstname","lastname","number","email","education");
-                       $labels=array("First Name","Last Name","Ph no","Email id","Educational Qualifications");
-
-                       for($i=0;$i<count($arr);$i++)
-                                          {
-                                          echo"<label for={$arr[$i]}>{$labels[$i]}  </label>";
-                                                      echo"<input type='text' id={$arr[$i]} name={$arr[$i]} /><br /><br />";
-                                          }
+                        $array= array( 'firstname'=>'First Name', 'lastname'=>'Last Name', 'number'=>'Ph no', 'email'=>'Email id', 'education'=>'Educational Qualifications');
+                        foreach ($array as $key => $value)
+                              {
+                                    echo"<label for={$key}> {$value}  </label>";
+                                          echo"<input type='text' id={$key} name={$key} /><br /><br />";
+                              }
 
                   ?>
             <label for="dob">Date of Birth  </label>
